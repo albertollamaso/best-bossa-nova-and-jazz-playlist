@@ -34,7 +34,7 @@ options.add_argument('--disable-gpu')
 options.add_argument('--disable-dev-shm-usage')
 options.add_argument('disable-infobars')
 options.add_argument("--disable-extensions")
-driver = Chrome(chrome_options=options)
+driver = Chrome(options=options)
 
 
 blacklist = ["Bossa Jazz Brasil", "Bossa Jazz"]
