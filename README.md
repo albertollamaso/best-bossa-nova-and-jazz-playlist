@@ -52,3 +52,6 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Chega de Saudade                                         | Roberta Sá                              | Roberta Sá                                    | https://open.spotify.com/track/2VGelnhC57422DuDfNJ1Ag |
 | Samba In Solitude                                        | EDC                                     | Blue Note Trip                                | not found                                             |
 | Beautiful Day                                            | Michael Massaro                         | I Remember You                                | https://open.spotify.com/track/4xjEt4sihbpsDljZALKpXo |
+| Anos Dourados                                            | Danilo Caymmi                           | Songbook Tom Jobim                            | not found                                             |
+| Here Comes The Sun                                       | Monique Kessous                         | Bossa Beatles                                 | not found                                             |
+| Eu e a Brisa                                             | Johnny Alf & Gilberto Gil               | Olhos Negros                                  | https://open.spotify.com/track/4t9IGV3aB4ONizgwAZldmz |
