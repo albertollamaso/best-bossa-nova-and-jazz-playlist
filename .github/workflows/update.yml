@@ -19,12 +19,15 @@ jobs:
       - name: Install all necessary packages
         run: pip install -r requirements.txt
 
-      - name: Run
+      - name: Check new songs
         env:
           SOURCE_URL: ${{ secrets.SOURCE_URL }}
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: python main.py
+
+      - name: Render README
+        run: python render_readme.py
 
       - name: Commit and push if content changed
         run: |-
