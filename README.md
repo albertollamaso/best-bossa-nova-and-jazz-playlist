@@ -55,3 +55,5 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Anos Dourados                                            | Danilo Caymmi                           | Songbook Tom Jobim                            | not found                                             |
 | Here Comes The Sun                                       | Monique Kessous                         | Bossa Beatles                                 | not found                                             |
 | Eu e a Brisa                                             | Johnny Alf & Gilberto Gil               | Olhos Negros                                  | https://open.spotify.com/track/4t9IGV3aB4ONizgwAZldmz |
+| Dindi                                                    | El Debarge                              | A Twist of Jobim                              | https://open.spotify.com/track/5tvK4XjGUgb0KcUOVAPbbv |
+| Seduzir                                                  | Rosa Passos                             | Rosa Passos                                   | not found                                             |
