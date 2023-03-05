@@ -22,6 +22,7 @@ Contributions are welcome! Feel free to open an issue or pull request with your 
 
 This project is licensed under the Apache License. See the `LICENSE` file for details.
 
+## SONGS
 
 | title                                                    | artist          | album                        | spotifyURL                                            |
 | -------------------------------------------------------- | --------------- | ---------------------------- | ----------------------------------------------------- |
@@ -34,3 +35,6 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Ipanema                                                  | Dulce Quental   | Beleza Roubada               | https://open.spotify.com/track/3U5hrhkaacaX98N3FQLQV9 |
 | Long to Be                                               | Patty Ascher    | Bacharach Bossa              | https://open.spotify.com/track/5zXv7xtLaK2CXPJKNwrJSe |
 | Este Seu Olhar, Corcovado, Se Todos Fossem Iguais a Você | Toquinho        | Sinal Aberto Disc 1          | https://open.spotify.com/track/4nUSHq5DNRID4T1TZHrWlL |
+| Vivo Sonhando                                            | Pery Ribeiro    | Songbook Tom Jobim           | https://open.spotify.com/track/4leHnDGEHBlGynm4LlPniX |
+| Aeromoça                                                 | Dick Farney     | Nova Série                   | https://open.spotify.com/track/5QoUSvHtrFC6mFE0i06xmL |
+| Onde Anda Você                                           | Claudia Telles  | Claudia Telles               | https://open.spotify.com/track/5KsmAYBMaWDyW79rQYt8fO |
