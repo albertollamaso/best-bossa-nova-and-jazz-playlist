@@ -45,9 +45,7 @@ csv_file = open('playlist.csv', 'a')
 # Create the csv writer
 writer = csv.writer(csv_file)
 
-url = os.environ.get('URL')
-
-driver.get(url)
+driver.get("https://bossajazzbrasil.com/ouca-on-line/")
 
 # Delay to load the contents of the HTML FIle
 time.sleep(2)

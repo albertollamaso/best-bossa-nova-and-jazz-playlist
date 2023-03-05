@@ -17,8 +17,6 @@ jobs:
       - name: Install all necessary packages
         run: pip install -r requirements.txt
       - name: Run the scraping script
-        env:
-          URL: ${{ secrets.URL }}
         run: python scrape.py
       - name: Commit and push if content changed
         run: |-
