@@ -1,5 +1,28 @@
 # Best Bossa Nova and Jazz Playlist
 
+This project is a web scraper that monitors a public online radio station's playlist and searches for the corresponding versions of the songs played on Spotify.
+The scraped data is automatically update to the README.
+
+## Features
+
+- Web scraping of the radio station's playlist in real-time using BeautifulSoup and requests libraries
+- Searching for the corresponding tracks on Spotify using the Spotify Web API
+- Storing the scraped data in a CSV file and the README of this repository
+- [TODO] Automatic creation and updating of a Spotify playlist with the corresponding tracks
+
+## Usage
+
+The github action runs every 5 minutes and it will monitor the radio station's playlist in real-time and search for the corresponding tracks on Spotify.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or pull request with your ideas or bug fixes.
+
+## License
+
+This project is licensed under the Apache License. See the `LICENSE` file for details.
+
+
 | title                                                    | artist          | album                        | spotifyURL                                            |
 | -------------------------------------------------------- | --------------- | ---------------------------- | ----------------------------------------------------- |
 | Willow Weep For Me                                       | Helen Sung Trio | Helenistique                 | https://open.spotify.com/track/6rTMv2I5GOMd70EkNepmmD |
