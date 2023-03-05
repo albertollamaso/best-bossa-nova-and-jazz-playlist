@@ -2,7 +2,8 @@ name: scrape
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/20 * * * *'
+    # run every five(5) minutes
+    - cron: '* * * * *'
 jobs:
   scrape:
     runs-on: ubuntu-latest
