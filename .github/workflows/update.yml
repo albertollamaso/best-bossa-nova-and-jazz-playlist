@@ -6,7 +6,7 @@ on:
     - cron: '* * * * *'
 permissions: write-all
 jobs:
-  scrape:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Check out this repo
@@ -19,8 +19,12 @@ jobs:
       - name: Install all necessary packages
         run: pip install -r requirements.txt
 
-      - name: Run the scraping script
-        run: python scrape.py
+      - name: Run
+        env:
+          SOURCE_URL: ${{ secrets.SOURCE_URL }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: python main.py
 
       - name: Commit and push if content changed
         run: |-

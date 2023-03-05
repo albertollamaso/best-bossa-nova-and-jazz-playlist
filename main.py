@@ -6,26 +6,11 @@ from bs4 import BeautifulSoup
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 
-def scrape(findClass):
-    list = []
+from helpers import scrape
+from helpers import checkDuplicate
+from helpers import spotifyToken
+from helpers import get_spotify_uri
 
-    content = soup.find_all(class_=findClass)
-    for element in content:
-        list.append(element.string)
-    
-    return list
-
-def checkDuplicate(title, artist):
-    df = pd.read_csv('playlist.csv', delimiter=',')
-    tuples = [tuple(x) for x in df.values]
-    for t in tuples:
-        if (title == t[0] and artist == t[1]):
-            print("this song already exists in list")
-            print("song: {}".format(t[0]))
-            print("artist: {}".format(t[1]))
-            return False
-    
-    return True
 
 options = Options()
 options.add_argument("--headless")
@@ -37,7 +22,13 @@ options.add_argument("--disable-extensions")
 driver = Chrome(options=options)
 
 
-blacklist = ["Bossa Jazz Brasil", "Bossa Jazz"]
+titleBlacklist = ["Bossa Jazz Brasil", "Bossa Jazz"]
+albumBlacklist = ["BJB"]
+
+SOURCE_URL = os.getenv('SOURCE_URL')
+SPOTIFY_CLIENT_ID = os.getenv('SPOTIFY_CLIENT_ID')
+SPOTIFY_CLIENT_SECRET = os.getenv('SPOTIFY_CLIENT_SECRET')
+SPOTIFY_AUTH_URL = 'https://accounts.spotify.com/api/token'
 
 # Opening the CSV File Handle
 csv_file = open('playlist.csv', 'a')
@@ -45,7 +36,7 @@ csv_file = open('playlist.csv', 'a')
 # Create the csv writer
 writer = csv.writer(csv_file)
 
-driver.get("https://bossajazzbrasil.com/ouca-on-line/")
+driver.get(SOURCE_URL)
 
 # Delay to load the contents of the HTML FIle
 time.sleep(2)
@@ -53,6 +44,8 @@ time.sleep(2)
 # Parse processed webpage with BeautifulSoup
 soup = BeautifulSoup(driver.page_source, features="html.parser")
 
+# get spotify access token
+spotifyToken = spotifyToken(SPOTIFY_AUTH_URL, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET)
 
 
 # scrape content
@@ -61,11 +54,19 @@ artists = scrape("ccartist")
 albums = scrape("ccalbum")
 
 for (title, artist, album) in zip(titles, artists, albums):
-    if title not in blacklist:
+    if (title not in titleBlacklist) and (album not in albumBlacklist):
          if checkDuplicate(title, artist):
+            spotifyTrackUrl = get_spotify_uri(spotifyToken, title, artist)
             print("Adding song:")
-            writer.writerow([title,artist,album])
             print("title:  {}".format(title))
             print("artist: {}".format(artist))
             print("album:  {}".format(album))
-            print("--------------------------------------------------------")
+            print("spotify url: {}".format(spotifyTrackUrl))
+            writer.writerow([title, artist, album, spotifyTrackUrl])
+    else:
+        print("*** match blacklist ***")
+        print("title:  {}".format(title))
+        print("artist: {}".format(artist))
+        print("album:  {}".format(album))
+    
+    print("--------------------------------------------------------")
