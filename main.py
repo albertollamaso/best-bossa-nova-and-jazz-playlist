@@ -45,7 +45,7 @@ time.sleep(2)
 soup = BeautifulSoup(driver.page_source, features="html.parser")
 
 # get spotify access token
-spotifyToken = spotifyToken(SPOTIFY_AUTH_URL, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET)
+spotifyAuthToken = spotifyToken(SPOTIFY_AUTH_URL, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET)
 
 
 # scrape content
@@ -56,7 +56,7 @@ albums = scrape("ccalbum")
 for (title, artist, album) in zip(titles, artists, albums):
     if (title not in titleBlacklist) and (album not in albumBlacklist):
          if checkDuplicate(title, artist):
-            spotifyTrackUrl = get_spotify_uri(spotifyToken, title, artist)
+            spotifyTrackUrl = get_spotify_uri(spotifyAuthToken, title, artist)
             print("Adding song:")
             print("title:  {}".format(title))
             print("artist: {}".format(artist))
