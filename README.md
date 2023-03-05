@@ -48,3 +48,5 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Baubles, Bangles And Beads                               | John Pizzarelli                         | Sinatra & Jobim @ 50                          | https://open.spotify.com/track/4DbeHYH4yUncPocWvhqQ5C |
 | Infiel                                                   | Leo Jaime                               | Leo Jaime                                     | https://open.spotify.com/track/0W01GiA7ZyHZ7uxw5opl5P |
 | Let There Be Love                                        | Nat King Cole & George Shearing Quintet | The Best Chillout Ever                        | https://open.spotify.com/track/7AL1pxI9IwHoXs98G0T8cC |
+| On A Clear Day                                           | Lisa Ono                                | Look To The Rainbow                           | not found                                             |
+| Chega de Saudade                                         | Roberta Sá                              | Roberta Sá                                    | https://open.spotify.com/track/2VGelnhC57422DuDfNJ1Ag |
