@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install all necessary packages
-        run: pip install requests beautifulsoup4 pandas
+        run: pip install -r requirements.txt
       - name: Run the scraping script
         env:
           URL: ${{ secrets.URL }}
