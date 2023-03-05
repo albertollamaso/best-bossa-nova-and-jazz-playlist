@@ -4,6 +4,7 @@ import csv
 import pandas as pd
 from bs4 import BeautifulSoup
 from selenium.webdriver import Chrome
+from selenium.webdriver.chrome.options import Options
 
 def scrape(findClass):
     list = []
@@ -26,8 +27,15 @@ def checkDuplicate(title, artist):
     
     return True
 
+options = Options()
+options.add_argument("--headless")
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-gpu')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument('disable-infobars')
+options.add_argument("--disable-extensions")
+driver = Chrome(chrome_options=options)
 
-driver = Chrome()
 
 blacklist = ["Bossa Jazz Brasil", "Bossa Jazz"]
 
