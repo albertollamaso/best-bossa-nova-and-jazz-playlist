@@ -50,3 +50,5 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Let There Be Love                                        | Nat King Cole & George Shearing Quintet | The Best Chillout Ever                        | https://open.spotify.com/track/7AL1pxI9IwHoXs98G0T8cC |
 | On A Clear Day                                           | Lisa Ono                                | Look To The Rainbow                           | not found                                             |
 | Chega de Saudade                                         | Roberta Sá                              | Roberta Sá                                    | https://open.spotify.com/track/2VGelnhC57422DuDfNJ1Ag |
+| Samba In Solitude                                        | EDC                                     | Blue Note Trip                                | not found                                             |
+| Beautiful Day                                            | Michael Massaro                         | I Remember You                                | https://open.spotify.com/track/4xjEt4sihbpsDljZALKpXo |
