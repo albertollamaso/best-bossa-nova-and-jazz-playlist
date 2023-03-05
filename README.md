@@ -57,3 +57,5 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Eu e a Brisa                                             | Johnny Alf & Gilberto Gil               | Olhos Negros                                  | https://open.spotify.com/track/4t9IGV3aB4ONizgwAZldmz |
 | Dindi                                                    | El Debarge                              | A Twist of Jobim                              | https://open.spotify.com/track/5tvK4XjGUgb0KcUOVAPbbv |
 | Seduzir                                                  | Rosa Passos                             | Rosa Passos                                   | not found                                             |
+| Human Nature                                             | Miles Davis                             | You're Under Arrest                           | https://open.spotify.com/track/25e6EHX8YyC5hsaipxdHCz |
+| Essa Mulher                                              | Elis Regina                             | Perfil                                        | https://open.spotify.com/track/2IkSBOHn9edo009eIYmgTG |
