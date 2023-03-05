@@ -59,3 +59,6 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Seduzir                                                  | Rosa Passos                             | Rosa Passos                                   | not found                                             |
 | Human Nature                                             | Miles Davis                             | You're Under Arrest                           | https://open.spotify.com/track/25e6EHX8YyC5hsaipxdHCz |
 | Essa Mulher                                              | Elis Regina                             | Perfil                                        | https://open.spotify.com/track/2IkSBOHn9edo009eIYmgTG |
+| Quando Amor Acontece                                     | Zizi Possi                              | Songbook João Bosco                           | not found                                             |
+| Ochi cherneye                                            | Sophie Milman                           | Her very best ... so far                      | not found                                             |
+| Smoke Gets In Your Eyes                                  | Freddy Cole                             | Freddy Cole                                   | https://open.spotify.com/track/2MEZnV8BDR8gFyHRAAw5m2 |
