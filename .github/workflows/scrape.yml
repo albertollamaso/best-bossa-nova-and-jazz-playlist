@@ -17,7 +17,7 @@ jobs:
       - name: Install all necessary packages
         run: pip install requests beautifulsoup4 pandas
       - name: Run the scraping script
-        with:
+        env:
           URL: ${{ secrets.URL }}
         run: python scrape.py
       - name: Commit and push if content changed
