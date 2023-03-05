@@ -39,3 +39,5 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Aeromoça                                                 | Dick Farney     | Nova Série                                    | https://open.spotify.com/track/5QoUSvHtrFC6mFE0i06xmL |
 | Onde Anda Você                                           | Claudia Telles  | Claudia Telles                                | https://open.spotify.com/track/5KsmAYBMaWDyW79rQYt8fO |
 | Gentileza                                                | Marisa Monte    | Memories, Chronicles and Declarations of Love | https://open.spotify.com/track/18TFoAFWWnioLhmnyfRdLr |
+| Solitude                                                 | Molly Johnson   | Lucky                                         | https://open.spotify.com/track/4N6db2SvUXb6S8N83Mhypk |
+| As Vitrines                                              | Chico Buarque   | Chico 50 Anos                                 | https://open.spotify.com/track/4nCZjwdaBA9Vgog5kmK21t |
