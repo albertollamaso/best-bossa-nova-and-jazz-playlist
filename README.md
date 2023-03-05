@@ -62,3 +62,6 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Quando Amor Acontece                                     | Zizi Possi                              | Songbook João Bosco                           | not found                                             |
 | Ochi cherneye                                            | Sophie Milman                           | Her very best ... so far                      | not found                                             |
 | Smoke Gets In Your Eyes                                  | Freddy Cole                             | Freddy Cole                                   | https://open.spotify.com/track/2MEZnV8BDR8gFyHRAAw5m2 |
+| Dance Me to the End of Love                              | Madeleine Peyroux                       | Careless Love                                 | https://open.spotify.com/track/13zjNPZUyWvzZC2dlYjW0L |
+| Every breath you Take                                    | Karen Souza                             | Jazz and '80s                                 | https://open.spotify.com/track/4u2b3QdJ6FkyaaTK0TrRQR |
+| Walk On By                                               | Victor Fields & Chris Camozzi           | 52nd Street                                   | not found                                             |
