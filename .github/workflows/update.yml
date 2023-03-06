@@ -24,6 +24,7 @@ jobs:
           SOURCE_URL: ${{ secrets.SOURCE_URL }}
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_TOKEN: ${{ secrets.SPOTIFY_TOKEN }}
         run: python main.py
 
       - name: Render README

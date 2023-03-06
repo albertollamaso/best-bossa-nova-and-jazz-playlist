@@ -38,6 +38,26 @@ def checkDuplicate(title, artist):
     
     return True
 
+def spotify_add_to_playlist(uri):
+
+    token = os.getenv('SPOTIFY_TOKEN')
+    print(token)
+
+    uri = uri.split(':')
+    uri = uri[2]
+
+    query = "https://api.spotify.com/v1/playlists/4bskPwSKzCIFbs6EYZrtu1/tracks?uris=spotify%3Atrack%3A{}".format(uri)
+
+    response = requests.post(query,headers={"Accept": "application/json","Content-Type": "application/json","Authorization": "Bearer {}".format(token)})
+
+    if response.status_code == 201:
+        print("track added to playlist")
+    else:
+        print(response.reason)
+        print("there was a problem adding track to playlist")
+
+    return
+
 def spotifyToken(AUTH_URL, CLIENT_ID, CLIENT_SECRET):
     auth_response = requests.post(AUTH_URL, {
         'grant_type': 'client_credentials',
@@ -59,6 +79,8 @@ def get_spotify_uri(spotifyToken, track, artist):
     songs = response["tracks"]["items"]
     if len(songs) > 0 :
         url = songs[0]["external_urls"]["spotify"]
+        uri = songs[0]["uri"]
+        spotify_add_to_playlist(uri)
         return url
     else:
         return "not found"

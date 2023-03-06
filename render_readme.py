@@ -30,6 +30,10 @@ Contributions are welcome! Feel free to open an issue or pull request with your 
 
 This project is licensed under the Apache License. See the `LICENSE` file for details.
 
+## Spotify Playlist
+
+[Spotify Playlist](https://open.spotify.com/playlist/4bskPwSKzCIFbs6EYZrtu1?si=71647b6fa0544740)
+
 ## SONGS
 
 """
