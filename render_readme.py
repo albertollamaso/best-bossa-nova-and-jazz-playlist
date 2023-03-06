@@ -16,7 +16,7 @@ The scraped data is automatically update to the README.
 - Web scraping of the radio station's playlist in real-time using BeautifulSoup and requests libraries
 - Searching for the corresponding tracks on Spotify using the Spotify Web API
 - Storing the scraped data in a CSV file and the README of this repository
-- [TODO] Automatic creation and updating of a Spotify playlist with the corresponding tracks
+- Automatic creation and updating of a Spotify [playlist](https://open.spotify.com/playlist/4bskPwSKzCIFbs6EYZrtu1?si=71647b6fa0544740) with the corresponding tracks
 
 ## Usage
 
