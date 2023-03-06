@@ -78,7 +78,7 @@ def get_spotify_uri(spotifyToken, track, artist):
     if len(songs) > 0 :
         url = songs[0]["external_urls"]["spotify"]
         uri = songs[0]["uri"]
-        spotify_add_to_playlist(uri)
+        # spotify_add_to_playlist(uri)
         return url
     else:
         return "not found"
