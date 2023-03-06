@@ -39,9 +39,7 @@ def checkDuplicate(title, artist):
     return True
 
 def spotify_add_to_playlist(uri):
-
     token = os.getenv('SPOTIFY_TOKEN')
-    print(token)
 
     uri = uri.split(':')
     uri = uri[2]
