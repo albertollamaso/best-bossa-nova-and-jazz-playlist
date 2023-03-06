@@ -22,6 +22,10 @@ Contributions are welcome! Feel free to open an issue or pull request with your 
 
 This project is licensed under the Apache License. See the `LICENSE` file for details.
 
+## Spotify Playlist
+
+[Spotify Playlist](https://open.spotify.com/playlist/4bskPwSKzCIFbs6EYZrtu1?si=71647b6fa0544740)
+
 ## SONGS
 
 | title                                                    | artist                                               | album                                                                    | spotifyURL                                            |
@@ -407,3 +411,5 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | My Melancholy Baby                                       | Delicatessen                                         | Delicatessen                                                             | https://open.spotify.com/track/59nA9SD9veUk8PKPQjxZ5w |
 | Sábado em Copacabana                                     | Maria Bethania                                       | Novelas                                                                  | https://open.spotify.com/track/7JKnNpH3nEiOuChHPjr0Nj |
 | Samba Do Soho                                            | Tom Jobim                                            | Passarim                                                                 | not found                                             |
+| Querida                                                  | Miúcha                                               | Songbook Tom Jobim                                                       | https://open.spotify.com/track/43KF1fEP0mDC2IuN1c9HL7 |
+| You're the Cream in My Coffee                            | The Jeff Steinberg Jazz Ensemble                     | Jazz Blends: A Robust Blend of Instrumental Jazz With Your Coffee        | not found                                             |
