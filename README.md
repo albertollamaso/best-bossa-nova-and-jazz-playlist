@@ -8,7 +8,7 @@ The scraped data is automatically update to the README.
 - Web scraping of the radio station's playlist in real-time using BeautifulSoup and requests libraries
 - Searching for the corresponding tracks on Spotify using the Spotify Web API
 - Storing the scraped data in a CSV file and the README of this repository
-- [TODO] Automatic creation and updating of a Spotify playlist with the corresponding tracks
+- Automatic creation and updating of a Spotify [playlist](https://open.spotify.com/playlist/4bskPwSKzCIFbs6EYZrtu1?si=71647b6fa0544740) with the corresponding tracks
 
 ## Usage
 
@@ -413,3 +413,4 @@ This project is licensed under the Apache License. See the `LICENSE` file for de
 | Samba Do Soho                                            | Tom Jobim                                            | Passarim                                                                 | not found                                             |
 | Querida                                                  | Miúcha                                               | Songbook Tom Jobim                                                       | https://open.spotify.com/track/43KF1fEP0mDC2IuN1c9HL7 |
 | You're the Cream in My Coffee                            | The Jeff Steinberg Jazz Ensemble                     | Jazz Blends: A Robust Blend of Instrumental Jazz With Your Coffee        | not found                                             |
+| Izaura                                                   | Joao Gilberto & Miúcha                               | Best of Brazil - Personalidade                                           | https://open.spotify.com/track/4rlZovP0MkhH51wzNhF72P |
